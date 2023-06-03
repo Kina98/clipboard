@@ -1,0 +1,80 @@
+@media screen and (max-width: 1018px) {
+    .corps {
+        font-size: 12px;
+        text-align: center;
+       
+       }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover;
+        font-size: 12px;
+        text-align: center;
+       
+    }
+    .logosvg1{
+        margin-right: 560px;
+    }
+    .titre1{
+        margin-right: 560px;
+    }
+    .paragraphe1{
+        margin-right: 560px;
+    }
+    .btc{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .button1, .buttonA{
+        margin-bottom: 20px;
+    }
+    .align-computer{
+        display: flex;
+        flex-direction: column;
+        padding-right: 300px;
+    }
+    .image-computer{
+        width: 50%;
+        padding-left: 70px;
+    }
+    .search{
+        text-align: center;
+        
+    }
+    .image-devices{
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+    }
+    .align{
+        display: flex;
+        flex-direction: column;
+        padding-right: 570px;
+    }
+    .les-logo{
+        display: flex;
+        flex-direction: column;
+        padding-left: 130px;
+    }
+    .pied-de-page{
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+        width: 150px;
+        height: 500px;
+    }
+    .faqs{
+        text-align: center;
+        padding-right: 60px;
+    }
+    .logosvg2{
+        width: 50%;
+    }
+    .media{
+        padding-right: 40px;
+    }
+ 
+}

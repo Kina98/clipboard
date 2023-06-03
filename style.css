@@ -1,0 +1,230 @@
+.corps{
+    background-image: url(images/bg-header-desktop.png);
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 1440px;
+    margin: auto;
+    overflow-x: hidden;margin: 0px;
+}
+.keep {
+    padding-top: 50px;
+}
+
+.logosvg1 {
+    width: 10%;
+    padding-bottom: 50px;
+}
+.button1 {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 30px;
+    border-color: #27BBA4;
+    margin-right: 18px;
+    height: 35px;
+    width: 200px;
+    border: none;
+    box-shadow: hsl(171, 66%, 44%);
+}
+.button2 {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 30px;
+    border-color: hsl(233, 100%, 69%);
+    margin-right: 18px;
+    height: 35px;
+    width: 200px;
+    border: none;
+    box-shadow: hsl(233, 100%, 69%);
+}
+#image-computer{
+    margin-left: -200px;
+}
+.image-devices {
+    width: ;
+    padding-top: 25px;
+}
+.les-icons {
+    width: 30px;
+}
+.les-logos {
+    margin: 50px;
+}
+
+.buttonA {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 15px;
+    border-color: #27BBA4;
+    margin-right: 18px;
+    height: 35px;
+    width: 200px;
+}
+.buttonB {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 15px;
+    border-color: hsl(233, 100%, 69%);
+    margin-right: 18px;
+    height: 35px;
+    width: 200px;
+}
+.logosvg2 {
+    width: 4%;
+    height: 15%;
+    padding-top: 25px;
+}
+
+.align {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    margin: 40px;
+}
+.blacklists{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.align-computer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    
+}
+
+.pied-de-page {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(123, 131, 131, 0.137);
+    margin-top: 100px;
+}
+.search {
+    text-align: left;
+}
+.access {
+    padding-top: 100px;
+}
+.les-logo{
+    padding-top: 70px;
+}
+.clipboard{
+    padding-top: 70px;
+}
+.buttonAB{
+    padding-top: 22px;
+}
+.media{
+    padding-top: 35px;
+    word-spacing: 12px;
+}
+.media :hover{
+    color: #27BBA4;
+}
+.faqs{
+    font-size: 15px;
+    text-align: left;
+}
+.decor{
+    text-decoration: none;
+    color: #A5B2B7;
+}
+.faqs :hover{
+    color: #27BBA4;
+}
+.btc{
+    padding-top: 25px;
+}
+h1, p{
+    opacity: 0.6;
+}
+
+/* for mobile */
+@media screen and (max-width: 1440) {
+    .corps{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .corps{
+        background-image: url(images/bg-header-mobile.png);
+        width: 375px;
+        text-align: center;
+        background-repeat: no-repeat;
+        font-size: 18px;
+        margin: 0px;
+    }
+    .logosvg1{
+        width: 20%;
+        margin-top: 45px;
+    }
+    .btc{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .button1, .buttonA{
+        margin-bottom: 20px;
+        width: 300px;
+        height: 50px;
+    }
+    .button2, .buttonB{
+        width: 300px;
+        height: 50px;
+    }
+    #image-computer{
+        width: 90%;
+        padding-left: 100px;
+
+        
+    }
+    .align-computer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .align{
+        display: flex;
+        flex-direction: column;
+    }
+    .les-logo{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    .les-logos{
+        width: 200px;
+    }
+    .search{
+        text-align: center;
+        margin-right: 70px;
+        padding-top: 80px;
+       
+    }
+    .image-devices{
+        width: 80%;
+    }
+    .pied-de-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .faqs{
+        text-align: center;
+        font-size: 20px;
+    }
+    .media{
+        margin: 50px;
+    }
+    .logosvg2{
+        padding-left: 170px;
+        width: 50px;
+    }
+    .blacklists{
+        margin: 25px;
+    }
+    .les-icons{
+        width: 80px;
+    }
+}
